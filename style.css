@@ -1,54 +1,55 @@
 body {
     font-family: sans-serif;
-    background: black;
 }
 
 header {
-    background-color: white;
-    padding: 20px;
+    background-color: #163d8ac2;
+    color: white;
+    border: solid 1px rgb(250, 11, 11);
+    border-radius: 20px;
+    margin: 10px;
 }
-
- header img {
-    height: 50px;
-    width: 50px;
-}
-
- header a {
-    background-color: #EF930A;
-    color: black;
+header a {
     text-decoration: none;
-    border: 1px solid #EF930A;
-    font-size: 20px;
-    border-radius: 30px;
-    padding: 10px;
-    margin: 50px;
+    border: solid 1px #10d610b1;
+    padding: 3px;
+    margin: 2px;
+    background-color: #10d610b1;
+    border-radius: 20px;
 }
-
-h1 {
-    background-color: white;
-    color: #C78300;
+header p {
     text-align: center;
-    font-size: 40px;
-    padding: 10px;
-    margin: 50px;
 }
-
-h1 img {
-    width: 248px;
-    height: 213px;
-    border: 20px solid black;
-    margin: 5px;
+header img {
+    height: 50px;
+    width: 100px;
 }
-
-p img {
-    width: 366px;
-    height: 246px;
-    padding: 30px;
-
+a {
+    text-decoration: none;
+    border: solid 1px tomato;
+    border-radius: 10px;
+    background-color:darkblue;
+    color: white;
+    padding: 3px;
+    margin: 3px;
 }
-
+h1 {
+    text-align: center;
+    color: #0c33c2c2;
+    border: solid 1px blue;
+    border-radius:10px;
+    padding: 3px;
+    background-color: #fab70fc2;
+}
 footer {
-    background-color: #ECDB9E;
-    padding: 10px;
-    font-size: 20px;
+    border: solid 2px blue;
+    border-radius: 10px;
+    padding: 3px;
+}
+footer p {
+    background-color: #f70787c2;
+    color: white;
+    border: solid 3px blue;
+    border-radius: 10px;
+    padding: 3px;
 }
